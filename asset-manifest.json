@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/eltechnika/static/css/main.31d6cfe0.css",
+    "main.js": "/eltechnika/static/js/main.59381d13.js",
+    "index.html": "/eltechnika/index.html",
+    "main.59381d13.js.map": "/eltechnika/static/js/main.59381d13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.59381d13.js"
+  ]
+}
