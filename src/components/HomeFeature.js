@@ -5,11 +5,11 @@ const FeatureSection = styled.section`
   display: flex;
   background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcontent.instructables.com%2FORIG%2FFIL%2FZDWY%2FIB21XYLA%2FFILZDWYIB21XYLA.jpg%3Fauto%3Dwebp%26frame%3D1&f=1&nofb=1&ipt=6a5e1d9d397316f0f713fdfe78ca9f1f5aae904cf5751736e2ddd848f4c584a5&ipo=images");
   background-size: cover;
-  padding: 2rem;
+  max-width: 1440px;
+  margin: auto;
 
   @media (max-width: 768px) {
     flex-direction: column;
-    padding: 2rem 1rem;
   }
 `;
 

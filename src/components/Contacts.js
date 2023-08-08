@@ -3,8 +3,12 @@ import styled from "styled-components";
 
 const ContactsWrapper = styled.div`
   display: flex;
-  max-width: 100%;
+  max-width: 1440px;
   margin: auto;
+  
+  @media (max-width: 910px) {
+    flex-direction: column;
+  }
 `;
 
 const ContactInfo = styled.div`
@@ -23,6 +27,15 @@ const ContactForm = styled.div`
   padding: 2rem;
   gap: 3rem;
   display: flex;
+
+  @media (max-width: 668px) {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  @media (max-width: 450px) {
+    padding: 0.25rem;
+  }
 `;
 
 const InfoTitle = styled.h2`
@@ -77,6 +90,10 @@ const TextAreaField = styled.textarea`
   border: 1px solid lightgray;
   border-radius: 4px;
   margin-bottom: 0.5rem;
+
+  @media (max-width: 668px) {
+    margin-bottom: 0;
+  }
 `;
 
 const CheckboxLabel = styled.label`
@@ -84,6 +101,7 @@ const CheckboxLabel = styled.label`
   display: flex;
   align-items: center;
   margin-top: 0.5rem;
+  flex-wrap: wrap;
 `;
 
 const SubmitButton = styled.button`

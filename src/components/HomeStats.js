@@ -5,6 +5,8 @@ import YouTubeVideo from "./YouTubeVideo";
 const StatsSection = styled.section`
   display: flex;
   background-color: #fff;
+  max-width: 1440px;
+  margin: auto;
 
   @media (max-width: 768px) {
     flex-direction: column;

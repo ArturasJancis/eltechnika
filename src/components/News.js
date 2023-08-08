@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const NewsWrapper = styled.div`
   padding: 2rem;
-  max-width: 1300px;
+  max-width: 1440px;
   margin: auto;
 `;
 

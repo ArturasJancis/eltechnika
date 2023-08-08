@@ -16,6 +16,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const HeaderWrapper = styled.header`
   background-color: #f4f4f4;
+  max-width: 1440px;
+  margin: auto;
 `;
 
 const TopHeader = styled.div`

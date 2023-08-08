@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const PartnersWrapper = styled.div`
   padding: 2rem;
-  max-width: 1200px;
+  max-width: 1140px;
   margin: auto;
 `;
 
