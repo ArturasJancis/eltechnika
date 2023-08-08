@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/eltechnika/static/css/main.31d6cfe0.css",
-    "main.js": "/eltechnika/static/js/main.925eaf05.js",
+    "main.js": "/eltechnika/static/js/main.5e41364a.js",
     "index.html": "/eltechnika/index.html",
-    "main.925eaf05.js.map": "/eltechnika/static/js/main.925eaf05.js.map"
+    "main.5e41364a.js.map": "/eltechnika/static/js/main.5e41364a.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.925eaf05.js"
+    "static/js/main.5e41364a.js"
   ]
 }
